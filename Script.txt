@@ -1,0 +1,18 @@
+Steps to use Webpack bundler with React.
+
+LOADERS HELP TO LOAD BEFORE THE bundle.js FILES IS CREATED, PLUGINS ARE USED AFTER THE MODULE>JS FILE IS CREATD.
+
+npm i webpack webpack-cli --save-dev [BUNDLE ALL FILES TO ONE FILE]
+npm i svg-inline-loader --save-dev  [FOR SVG FILES]
+npm install --save-dev css-loader style-loader sass-loader sass [FOR COMPLIE CSS FILES]
+npm install --save-dev babel-loader [TO COMPILE ES6]
+npm i --save-dev html-webpack-plugin [PLUGIN to GENERATE HTML FILE AFTER LOADER COMPLETE ITS WORK
+npm install webpack-dev-server --save-dev [LIKE NODEMON]
+npm install -g win-node-env
+
+REACT
+npm i react react-dom
+npm install -D @babel/core @babel/preset-env @babel/preset-react
+
+SCSS
+npm install --save-dev mini-css-extract-plugin
